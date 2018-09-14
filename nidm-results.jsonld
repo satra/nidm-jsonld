@@ -1,0 +1,1362 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "Activity": {
+      "@id": "http://www.w3.org/ns/prov#Activity",
+      "@type": "@id"
+    },
+    "ActivityInfluence": {
+      "@id": "http://www.w3.org/ns/prov#ActivityInfluence",
+      "@type": "@id"
+    },
+    "Agent": {
+      "@id": "http://www.w3.org/ns/prov#Agent",
+      "@type": "@id"
+    },
+    "AgentInfluence": {
+      "@id": "http://www.w3.org/ns/prov#AgentInfluence",
+      "@type": "@id"
+    },
+    "AnatomicalMRIprotocol": {
+      "@id": "http://uri.neuinfo.org/nif/nifstd/ixl_0050004",
+      "@type": "@id"
+    },
+    "ArbitrarilyCorrelatedError": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000003",
+      "@type": "@id"
+    },
+    "Association": {
+      "@id": "http://www.w3.org/ns/prov#Association",
+      "@type": "@id"
+    },
+    "Attribution": {
+      "@id": "http://www.w3.org/ns/prov#Attribution",
+      "@type": "@id"
+    },
+    "BFOCLIFspecificationlabel": {
+      "@id": "http://purl.obolibrary.org/obo/BFO_0000180",
+      "@type": "@id"
+    },
+    "BFOOWLspecificationlabel": {
+      "@id": "http://purl.obolibrary.org/obo/BFO_0000179",
+      "@type": "@id"
+    },
+    "BinaryMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000004",
+      "@type": "@id"
+    },
+    "BinomialDistribution": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000005",
+      "@type": "@id"
+    },
+    "Bundle": {
+      "@id": "http://www.w3.org/ns/prov#Bundle",
+      "@type": "@id"
+    },
+    "ChiSquaredstatistic": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000030",
+      "@type": "@id"
+    },
+    "Cluster": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000006",
+      "@type": "@id"
+    },
+    "ClusterCenterOfGravity": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000140",
+      "@type": "@id"
+    },
+    "ClusterDefinitionCriteria": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000007",
+      "@type": "@id"
+    },
+    "ClusterLabelsMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000008",
+      "@type": "@id"
+    },
+    "Colin27CoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000009",
+      "@type": "@id"
+    },
+    "Collection": {
+      "@id": "http://www.w3.org/ns/prov#Collection",
+      "@type": "@id"
+    },
+    "Communication": {
+      "@id": "http://www.w3.org/ns/prov#Communication",
+      "@type": "@id"
+    },
+    "ConjunctionInference": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000011",
+      "@type": "@id"
+    },
+    "ConnectivityCriterion": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000012",
+      "@type": "@id"
+    },
+    "ConstantParameter": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000072",
+      "@type": "@id"
+    },
+    "ContrastEstimation": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000001",
+      "@type": "@id"
+    },
+    "ContrastExplainedMeanSquareMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000163",
+      "@type": "@id"
+    },
+    "ContrastMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000002",
+      "@type": "@id"
+    },
+    "ContrastStandardErrorMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000013",
+      "@type": "@id"
+    },
+    "ContrastVarianceMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000135",
+      "@type": "@id"
+    },
+    "Contributor": {
+      "@id": "http://purl.org/dc/elements/1.1/contributor",
+      "@type": "@id"
+    },
+    "ConvolutionBasisSet": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000036",
+      "@type": "@id"
+    },
+    "Coordinate": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000015",
+      "@type": "@id"
+    },
+    "CoordinateSpace": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000016",
+      "@type": "@id"
+    },
+    "CustomBasisSet": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000067",
+      "@type": "@id"
+    },
+    "CustomCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000017",
+      "@type": "@id"
+    },
+    "Data": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000169",
+      "@type": "@id"
+    },
+    "DataScaling": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000018",
+      "@type": "@id"
+    },
+    "Date": {
+      "@id": "http://purl.org/dc/elements/1.1/date",
+      "@type": "@id"
+    },
+    "Delegation": {
+      "@id": "http://www.w3.org/ns/prov#Delegation",
+      "@type": "@id"
+    },
+    "Derivation": {
+      "@id": "http://www.w3.org/ns/prov#Derivation",
+      "@type": "@id"
+    },
+    "Description": {
+      "@id": "http://purl.org/dc/elements/1.1/description",
+      "@type": "@id"
+    },
+    "DesignMatrix": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000019",
+      "@type": "@id"
+    },
+    "Diffusionweightedimagingprotocol": {
+      "@id": "http://uri.neuinfo.org/nif/nifstd/nlx_inv_20090249",
+      "@type": "@id"
+    },
+    "DiscreteCosineTransformbasisDriftModel": {
+      "@id": "http://purl.org/nidash/spm#SPM_0000002",
+      "@type": "@id"
+    },
+    "DisplayMaskMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000020",
+      "@type": "@id"
+    },
+    "DriftModel": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000087",
+      "@type": "@id"
+    },
+    "Electroencephalographymachine": {
+      "@id": "http://uri.neuinfo.org/nif/nifstd/ixl_0050003",
+      "@type": "@id"
+    },
+    "EmptyCollection": {
+      "@id": "http://www.w3.org/ns/prov#EmptyCollection",
+      "@type": "@id"
+    },
+    "End": {
+      "@id": "http://www.w3.org/ns/prov#End",
+      "@type": "@id"
+    },
+    "Entity": {
+      "@id": "http://www.w3.org/ns/prov#Entity",
+      "@type": "@id"
+    },
+    "EntityInfluence": {
+      "@id": "http://www.w3.org/ns/prov#EntityInfluence",
+      "@type": "@id"
+    },
+    "ErrorDistribution": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000022",
+      "@type": "@id"
+    },
+    "ErrorModel": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000023",
+      "@type": "@id"
+    },
+    "ErrorParameterMapWiseDependence": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000071",
+      "@type": "@id"
+    },
+    "ExchangeableError": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000024",
+      "@type": "@id"
+    },
+    "ExcursionSetMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000025",
+      "@type": "@id"
+    },
+    "ExtentThreshold": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000026",
+      "@type": "@id"
+    },
+    "FSL": {
+      "@id": "http://scicrunch.org/resolver/SCR_002823",
+      "@type": "@id"
+    },
+    "FSLsGammaDifferenceHRF": {
+      "@id": "http://purl.org/nidash/fsl#FSL_0000001",
+      "@type": "@id"
+    },
+    "FSLsGammaHRF": {
+      "@id": "http://purl.org/nidash/fsl#FSL_0000006",
+      "@type": "@id"
+    },
+    "FSLsTemporalDerivative": {
+      "@id": "http://purl.org/nidash/fsl#FSL_0000003",
+      "@type": "@id"
+    },
+    "FWERadjustedpvalue": {
+      "@id": "http://purl.obolibrary.org/obo/OBI_0001265",
+      "@type": "@id"
+    },
+    "FiniteImpulseResponseBasisSet": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000028",
+      "@type": "@id"
+    },
+    "FourierBasisSet": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000069",
+      "@type": "@id"
+    },
+    "Fstatistic": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000282",
+      "@type": "@id"
+    },
+    "FunctionalMRIprotocol": {
+      "@id": "http://uri.neuinfo.org/nif/nifstd/birnlex_2250",
+      "@type": "@id"
+    },
+    "GammaBasisSet": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000030",
+      "@type": "@id"
+    },
+    "GammaDifferenceHRF": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000029",
+      "@type": "@id"
+    },
+    "GammaHRF": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000031",
+      "@type": "@id"
+    },
+    "GaussianDistribution": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000032",
+      "@type": "@id"
+    },
+    "GaussianHRF": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000110",
+      "@type": "@id"
+    },
+    "GaussianRunningLineDriftModel": {
+      "@id": "http://purl.org/nidash/fsl#FSL_0000002",
+      "@type": "@id"
+    },
+    "Generation": {
+      "@id": "http://www.w3.org/ns/prov#Generation",
+      "@type": "@id"
+    },
+    "GrandMeanMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000033",
+      "@type": "@id"
+    },
+    "HeightThreshold": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000034",
+      "@type": "@id"
+    },
+    "HemodynamicResponseFunction": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000035",
+      "@type": "@id"
+    },
+    "HemodynamicResponseFunctionDerivative": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000037",
+      "@type": "@id"
+    },
+    "IAORelease20150223": {
+      "@id": "http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl",
+      "@type": "@id"
+    },
+    "Icbm452AirCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000038",
+      "@type": "@id"
+    },
+    "Icbm452Warp5CoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000039",
+      "@type": "@id"
+    },
+    "IcbmMni152LinearCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000040",
+      "@type": "@id"
+    },
+    "IcbmMni152NonLinear2009aAsymmetricCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000041",
+      "@type": "@id"
+    },
+    "IcbmMni152NonLinear2009aSymmetricCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000042",
+      "@type": "@id"
+    },
+    "IcbmMni152NonLinear2009bAsymmetricCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000043",
+      "@type": "@id"
+    },
+    "IcbmMni152NonLinear2009bSymmetricCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000044",
+      "@type": "@id"
+    },
+    "IcbmMni152NonLinear2009cAsymmetricCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000045",
+      "@type": "@id"
+    },
+    "IcbmMni152NonLinear2009cSymmetricCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000046",
+      "@type": "@id"
+    },
+    "IcbmMni152NonLinear6thGenerationCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000047",
+      "@type": "@id"
+    },
+    "Imaginginstrument": {
+      "@id": "http://uri.neuinfo.org/nif/nifstd/birnlex_2094",
+      "@type": "@id"
+    },
+    "IndependentError": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000048",
+      "@type": "@id"
+    },
+    "IndependentParameter": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000073",
+      "@type": "@id"
+    },
+    "Inference": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000049",
+      "@type": "@id"
+    },
+    "Influence": {
+      "@id": "http://www.w3.org/ns/prov#Influence",
+      "@type": "@id"
+    },
+    "InstantaneousEvent": {
+      "@id": "http://www.w3.org/ns/prov#InstantaneousEvent",
+      "@type": "@id"
+    },
+    "Invalidation": {
+      "@id": "http://www.w3.org/ns/prov#Invalidation",
+      "@type": "@id"
+    },
+    "Ixi549CoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000050",
+      "@type": "@id"
+    },
+    "LinearSplineBasisSet": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000150",
+      "@type": "@id"
+    },
+    "Location": {
+      "@id": "http://www.w3.org/ns/prov#Location",
+      "@type": "@id"
+    },
+    "MNICoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000051",
+      "@type": "@id"
+    },
+    "MRIprotocol": {
+      "@id": "http://uri.neuinfo.org/nif/nifstd/birnlex_2177",
+      "@type": "@id"
+    },
+    "Magneticresonanceimagingscanner": {
+      "@id": "http://uri.neuinfo.org/nif/nifstd/birnlex_2100",
+      "@type": "@id"
+    },
+    "Magnetoencephalographymachine": {
+      "@id": "http://uri.neuinfo.org/nif/nifstd/ixl_0050002",
+      "@type": "@id"
+    },
+    "Map": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000052",
+      "@type": "@id"
+    },
+    "MapHeader": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000053",
+      "@type": "@id"
+    },
+    "MaskMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000054",
+      "@type": "@id"
+    },
+    "Mni305CoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000055",
+      "@type": "@id"
+    },
+    "ModelParameterEstimation": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000056",
+      "@type": "@id"
+    },
+    "NIDMObjectModel": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000057",
+      "@type": "@id"
+    },
+    "NIDMResults": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000027",
+      "@type": "@id"
+    },
+    "NIDMResultsExport": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000166",
+      "@type": "@id"
+    },
+    "NIDMResultsExporter": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000165",
+      "@type": "@id"
+    },
+    "NeuroimagingAnalysisSoftware": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000164",
+      "@type": "@id"
+    },
+    "NonParametricDistribution": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000058",
+      "@type": "@id"
+    },
+    "NonParametricSymmetricDistribution": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000059",
+      "@type": "@id"
+    },
+    "OneTailedTest": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000060",
+      "@type": "@id"
+    },
+    "Organization": {
+      "@id": "http://www.w3.org/ns/prov#Organization",
+      "@type": "@id"
+    },
+    "PValueUncorrected": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000160",
+      "@type": "@id"
+    },
+    "ParameterEstimateMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000061",
+      "@type": "@id"
+    },
+    "PartialConjunctionInference": {
+      "@id": "http://purl.org/nidash/spm#SPM_0000005",
+      "@type": "@id"
+    },
+    "Peak": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000062",
+      "@type": "@id"
+    },
+    "PeakDefinitionCriteria": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000063",
+      "@type": "@id"
+    },
+    "Person": {
+      "@id": "http://www.w3.org/ns/prov#Person",
+      "@type": "@id"
+    },
+    "PixelConnectivityCriterion": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000064",
+      "@type": "@id"
+    },
+    "Plan": {
+      "@id": "http://www.w3.org/ns/prov#Plan",
+      "@type": "@id"
+    },
+    "PoissonDistribution": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000065",
+      "@type": "@id"
+    },
+    "Poissondistribution": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000051",
+      "@type": "@id"
+    },
+    "Positronemissiontomographyscanner": {
+      "@id": "http://uri.neuinfo.org/nif/nifstd/ixl_0050000",
+      "@type": "@id"
+    },
+    "PrimarySource": {
+      "@id": "http://www.w3.org/ns/prov#PrimarySource",
+      "@type": "@id"
+    },
+    "PropertyReification": {
+      "@id": "http://purl.org/ontology/prv/core#PropertyReification",
+      "@type": "@id"
+    },
+    "Quotation": {
+      "@id": "http://www.w3.org/ns/prov#Quotation",
+      "@type": "@id"
+    },
+    "RegularizedParameter": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000074",
+      "@type": "@id"
+    },
+    "ReselsPerVoxelMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000144",
+      "@type": "@id"
+    },
+    "ResidualMeanSquaresMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000066",
+      "@type": "@id"
+    },
+    "Revision": {
+      "@id": "http://www.w3.org/ns/prov#Revision",
+      "@type": "@id"
+    },
+    "Role": {
+      "@id": "http://www.w3.org/ns/prov#Role",
+      "@type": "@id"
+    },
+    "SPM": {
+      "@id": "http://scicrunch.org/resolver/SCR_007037",
+      "@type": "@id"
+    },
+    "SPMsCanonicalHRF": {
+      "@id": "http://purl.org/nidash/spm#SPM_0000004",
+      "@type": "@id"
+    },
+    "SPMsDispersionDerivative": {
+      "@id": "http://purl.org/nidash/spm#SPM_0000003",
+      "@type": "@id"
+    },
+    "SPMsDriftCutoffPeriod": {
+      "@id": "http://purl.org/nidash/spm#SPM_0000001",
+      "@type": "@id"
+    },
+    "SPMsTemporalDerivative": {
+      "@id": "http://purl.org/nidash/spm#SPM_0000006",
+      "@type": "@id"
+    },
+    "SearchSpaceMaskMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000068",
+      "@type": "@id"
+    },
+    "SineBasisSet": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000151",
+      "@type": "@id"
+    },
+    "Singlephotonemissioncomputedtomographyscanner": {
+      "@id": "http://uri.neuinfo.org/nif/nifstd/ixl_0050001",
+      "@type": "@id"
+    },
+    "SoftwareAgent": {
+      "@id": "http://www.w3.org/ns/prov#SoftwareAgent",
+      "@type": "@id"
+    },
+    "StandardizedCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000075",
+      "@type": "@id"
+    },
+    "Start": {
+      "@id": "http://www.w3.org/ns/prov#Start",
+      "@type": "@id"
+    },
+    "StatisticMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000076",
+      "@type": "@id"
+    },
+    "STATO": "http://purl.obolibrary.org/obo/STATO_",
+    "StructuralMRIprotocol": {
+      "@id": "http://uri.neuinfo.org/nif/nifstd/birnlex_2251",
+      "@type": "@id"
+    },
+    "SubjectCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000077",
+      "@type": "@id"
+    },
+    "SupraThresholdCluster": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000070",
+      "@type": "@id"
+    },
+    "TalairachCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000078",
+      "@type": "@id"
+    },
+    "Threshold": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000162",
+      "@type": "@id"
+    },
+    "Toeplitzcovariancestructure": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000357",
+      "@type": "@id"
+    },
+    "TwoTailedTest": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000079",
+      "@type": "@id"
+    },
+    "Usage": {
+      "@id": "http://www.w3.org/ns/prov#Usage",
+      "@type": "@id"
+    },
+    "VoxelConnectivityCriterion": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000080",
+      "@type": "@id"
+    },
+    "W3CPROVenanceInterchangeOntology(PROVO)": {
+      "@id": "http://www.w3.org/ns/prov-o#",
+      "@type": "@id"
+    },
+    "WorldCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000081",
+      "@type": "@id"
+    },
+    "Zstatistic": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000376",
+      "@type": "@id"
+    },
+    "actedOnBehalfOf": {
+      "@id": "http://www.w3.org/ns/prov#actedOnBehalfOf",
+      "@type": "@id"
+    },
+    "activity": {
+      "@id": "http://www.w3.org/ns/prov#activity",
+      "@type": "@id"
+    },
+    "agent": {
+      "@id": "http://www.w3.org/ns/prov#agent",
+      "@type": "@id"
+    },
+    "alternateOf": {
+      "@id": "http://www.w3.org/ns/prov#alternateOf",
+      "@type": "@id"
+    },
+    "alternativeterm": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000118",
+      "@type": "@id"
+    },
+    "atLocation": {
+      "@id": "http://www.w3.org/ns/prov#atLocation",
+      "@type": "@id"
+    },
+    "atTime": {
+      "@id": "http://www.w3.org/ns/prov#atTime",
+      "@type": "xsd:dateTime"
+    },
+    "binomialdistribution": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000276",
+      "@type": "@id"
+    },
+    "cluster": {
+      "@id": "http://purl.obolibrary.org/obo/OBI_0000251",
+      "@type": "@id"
+    },
+    "clusterLabelId": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000082",
+      "@type": "xsd:int"
+    },
+    "clusterSizeInResels": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000156",
+      "@type": "xsd:float"
+    },
+    "clusterSizeInVoxels": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000084",
+      "@type": "xsd:int"
+    },
+    "compoundsymmetrycovariancestructure": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000362",
+      "@type": "@id"
+    },
+    "continuousprobabilitydistribution": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000067",
+      "@type": "@id"
+    },
+    "contrastName": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000085",
+      "@type": "xsd:string"
+    },
+    "contrastweightmatrix": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000323",
+      "@type": "@id"
+    },
+    "coordinateVector": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000086",
+      "@type": "xsd:string"
+    },
+    "coordinateVectorInVoxels": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000139",
+      "@type": "@id"
+    },
+    "covariancestructure": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000346",
+      "@type": "@id"
+    },
+    "crypto": "http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/",
+    "curatornote": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000232",
+      "@type": "@id"
+    },
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://purl.org/dc/terms/",
+    "definition": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000115",
+      "@type": "@id"
+    },
+    "definitionsource": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000119",
+      "@type": "@id"
+    },
+    "dependenceMapWiseDependence": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000089",
+      "@type": "@id"
+    },
+    "description": {
+      "@id": "dc:description",
+      "@type": "@id"
+    },
+    "designmatrix": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000019"
+    },
+    "dimensionsInVoxels": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000090",
+      "@type": "@id"
+    },
+    "discreteprobabilitydistribution": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000117",
+      "@type": "@id"
+    },
+    "driftCutoffPeriod": {
+      "@id": "http://purl.org/nidash/fsl#FSL_0000004",
+      "@type": "@id"
+    },
+    "editornote": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000116",
+      "@type": "@id"
+    },
+    "editorpreferredlabel": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000111",
+      "@type": "@id"
+    },
+    "editorpreferredterm": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000111",
+      "@type": "@id"
+    },
+    "effectDegreesOfFreedom": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000091",
+      "@type": "xsd:float"
+    },
+    "elucidation": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000600",
+      "@type": "@id"
+    },
+    "endedAtTime": {
+      "@id": "http://www.w3.org/ns/prov#endedAtTime",
+      "@type": "@id"
+    },
+    "entity": {
+      "@id": "http://www.w3.org/ns/prov#entity",
+      "@type": "@id"
+    },
+    "equivalentThreshold": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000161",
+      "@type": "@id"
+    },
+    "equivalentZStatistic": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000092",
+      "@type": "xsd:float"
+    },
+    "errorDegreesOfFreedom": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000093",
+      "@type": "xsd:float"
+    },
+    "errorVarianceHomogeneous": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000094",
+      "@type": "xsd:boolean"
+    },
+    "ex": "http://example.org/vocab#",
+    "exampleofusage": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000112",
+      "@type": "@id"
+    },
+    "exampletobeeventuallyremoved": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000002",
+      "@type": "@id"
+    },
+    "expectedNumberOfClusters": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000141",
+      "@type": "xsd:float"
+    },
+    "expectedNumberOfVoxelsPerCluster": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000143",
+      "@type": "xsd:float"
+    },
+    "feasiblegeneralizedleastsquaresestimation": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000374",
+      "@type": "@id"
+    },
+    "featVersion": {
+      "@id": "http://purl.org/nidash/fsl#FSL_0000005",
+      "@type": "@id"
+    },
+    "fileName": {
+      "@id": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileName",
+      "@type": "@id"
+    },
+    "generalizedleastsquaresestimation": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000372",
+      "@type": "@id"
+    },
+    "generated": {
+      "@id": "http://www.w3.org/ns/prov#generated",
+      "@type": "@id"
+    },
+    "generatedAtTime": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "@id"
+    },
+    "grandMeanScaling": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000096",
+      "@type": "xsd:boolean"
+    },
+    "groupName": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000170",
+      "@type": "@id"
+    },
+    "hadActivity": {
+      "@id": "http://www.w3.org/ns/prov#hadActivity",
+      "@type": "@id"
+    },
+    "hadGeneration": {
+      "@id": "http://www.w3.org/ns/prov#hadGeneration",
+      "@type": "@id"
+    },
+    "hadMember": {
+      "@id": "http://www.w3.org/ns/prov#hadMember",
+      "@type": "@id"
+    },
+    "hadPlan": {
+      "@id": "http://www.w3.org/ns/prov#hadPlan",
+      "@type": "@id"
+    },
+    "hadPrimarySource": {
+      "@id": "http://www.w3.org/ns/prov#hadPrimarySource",
+      "@type": "@id"
+    },
+    "hadRole": {
+      "@id": "http://www.w3.org/ns/prov#hadRole",
+      "@type": "@id"
+    },
+    "hadUsage": {
+      "@id": "http://www.w3.org/ns/prov#hadUsage",
+      "@type": "@id"
+    },
+    "hasAlternativeHypothesis": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000097",
+      "@type": "@id"
+    },
+    "hasClusterLabelsMap": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000098",
+      "@type": "@id"
+    },
+    "hasConnectivityCriterion": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000099",
+      "@type": "@id"
+    },
+    "hasDriftModel": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000088",
+      "@type": "@id"
+    },
+    "hasErrorDependence": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000100",
+      "@type": "@id"
+    },
+    "hasErrorDistribution": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000101",
+      "@type": "@id"
+    },
+    "hasHRFBasis": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000102",
+      "@type": "@id"
+    },
+    "hasMRIProtocol": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000172",
+      "@type": "@id"
+    },
+    "hasMapHeader": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000103",
+      "@type": "@id"
+    },
+    "hasMaximumIntensityProjection": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000138",
+      "@type": "@id"
+    },
+    "hascurationstatus": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000114",
+      "@type": "@id"
+    },
+    "hasobjectproperty": {
+      "@id": "http://purl.org/ontology/prv/core#object_property",
+      "@type": "@id"
+    },
+    "hasreificationclass": {
+      "@id": "http://purl.org/ontology/prv/core#reification_class",
+      "@type": "@id"
+    },
+    "hasshortcut": {
+      "@id": "http://purl.org/ontology/prv/core#shortcut",
+      "@type": "@id"
+    },
+    "hasshortcutproperty": {
+      "@id": "http://purl.org/ontology/prv/core#shortcut_property",
+      "@type": "@id"
+    },
+    "hassubjectproperty": {
+      "@id": "http://purl.org/ontology/prv/core#subject_property",
+      "@type": "@id"
+    },
+    "heightCriticalThresholdFDR05": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000146",
+      "@type": "xsd:float"
+    },
+    "heightCriticalThresholdFWE05": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000147",
+      "@type": "xsd:float"
+    },
+    "importedfrom": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000412",
+      "@type": "@id"
+    },
+    "inCoordinateSpace": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000104",
+      "@type": "@id"
+    },
+    "inWorldCoordinateSystem": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000105",
+      "@type": "@id"
+    },
+    "influenced": {
+      "@id": "http://www.w3.org/ns/prov#influenced",
+      "@type": "@id"
+    },
+    "influencer": {
+      "@id": "http://www.w3.org/ns/prov#influencer",
+      "@type": "@id"
+    },
+    "invalidated": {
+      "@id": "http://www.w3.org/ns/prov#invalidated",
+      "@type": "@id"
+    },
+    "invalidatedAtTime": {
+      "@id": "http://www.w3.org/ns/prov#invalidatedAtTime",
+      "@type": "@id"
+    },
+    "isUserDefined": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000106",
+      "@type": "@id"
+    },
+    "iterativelyreweightedleastsquaresestimation": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000373",
+      "@type": "@id"
+    },
+    "location": {
+      "@id": "prov:atLocation",
+      "@type": "xsd:anyURI"
+    },
+    "maskedMedian": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000107",
+      "@type": "xsd:float"
+    },
+    "maxNumberOfPeaksPerCluster": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000108",
+      "@type": "xsd:int"
+    },
+    "metadatacomplete": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000120",
+      "@type": "@id"
+    },
+    "metadataincomplete": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000123",
+      "@type": "@id"
+    },
+    "minDistanceBetweenPeaks": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000109",
+      "@type": "xsd:float"
+    },
+    "modelparameterestimation": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000119",
+      "@type": "@id"
+    },
+    "nfo": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#",
+    "nidm": "http://purl.org/nidash/nidm#",
+    "nidmfsl": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000167",
+      "@type": "@id"
+    },
+    "niiri": "http://iri.nidash.org/",
+    "noiseFWHMInUnits": {
+      "@id": "http://purl.org/nidash/spm#SPM_0000007",
+      "@type": "@id"
+    },
+    "noiseFWHMInVertices": {
+      "@id": "http://purl.org/nidash/spm#SPM_0000008",
+      "@type": "@id"
+    },
+    "noiseFWHMInVoxels": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000159",
+      "@type": "xsd:string"
+    },
+    "noiseRoughnessInVoxels": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000145",
+      "@type": "@id"
+    },
+    "normaldistribution": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000227",
+      "@type": "@id"
+    },
+    "numberOfDimensions": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000112",
+      "@type": "xsd:int"
+    },
+    "numberOfSubjects": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000171",
+      "@type": "@id"
+    },
+    "numberOfSupraThresholdClusters": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000111",
+      "@type": "xsd:int"
+    },
+    "objectModel": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000113",
+      "@type": "@id"
+    },
+    "ordinaryleastsquaresestimation": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000370",
+      "@type": "@id"
+    },
+    "organizationalterm": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000121",
+      "@type": "@id"
+    },
+    "pValue": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000114",
+      "@type": "xsd:float"
+    },
+    "pValueFWER": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000115",
+      "@type": "xsd:float"
+    },
+    "pValueUncorrected": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000116",
+      "@type": "xsd:float"
+    },
+    "partialConjunctionDegree": {
+      "@id": "http://purl.org/nidash/spm#SPM_0000015",
+      "@type": "@id"
+    },
+    "pendingfinalvetting": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000125",
+      "@type": "@id"
+    },
+    "pixel4connected": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000117",
+      "@type": "@id"
+    },
+    "pixel8connected": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000118",
+      "@type": "@id"
+    },
+    "probabilitydistribution": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000225",
+      "@type": "@id"
+    },
+    "prov": "http://www.w3.org/ns/prov#",
+    "qValueFDR": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000119",
+      "@type": "xsd:float"
+    },
+    "qualifiedAssociation": {
+      "@id": "http://www.w3.org/ns/prov#qualifiedAssociation",
+      "@type": "@id"
+    },
+    "qualifiedAttribution": {
+      "@id": "http://www.w3.org/ns/prov#qualifiedAttribution",
+      "@type": "@id"
+    },
+    "qualifiedCommunication": {
+      "@id": "http://www.w3.org/ns/prov#qualifiedCommunication",
+      "@type": "@id"
+    },
+    "qualifiedDelegation": {
+      "@id": "http://www.w3.org/ns/prov#qualifiedDelegation",
+      "@type": "@id"
+    },
+    "qualifiedDerivation": {
+      "@id": "http://www.w3.org/ns/prov#qualifiedDerivation",
+      "@type": "@id"
+    },
+    "qualifiedEnd": {
+      "@id": "http://www.w3.org/ns/prov#qualifiedEnd",
+      "@type": "@id"
+    },
+    "qualifiedGeneration": {
+      "@id": "http://www.w3.org/ns/prov#qualifiedGeneration",
+      "@type": "@id"
+    },
+    "qualifiedInfluence": {
+      "@id": "http://www.w3.org/ns/prov#qualifiedInfluence",
+      "@type": "@id"
+    },
+    "qualifiedInvalidation": {
+      "@id": "http://www.w3.org/ns/prov#qualifiedInvalidation",
+      "@type": "@id"
+    },
+    "qualifiedPrimarySource": {
+      "@id": "http://www.w3.org/ns/prov#qualifiedPrimarySource",
+      "@type": "@id"
+    },
+    "qualifiedQuotation": {
+      "@id": "http://www.w3.org/ns/prov#qualifiedQuotation",
+      "@type": "@id"
+    },
+    "qualifiedRevision": {
+      "@id": "http://www.w3.org/ns/prov#qualifiedRevision",
+      "@type": "@id"
+    },
+    "qualifiedStart": {
+      "@id": "http://www.w3.org/ns/prov#qualifiedStart",
+      "@type": "@id"
+    },
+    "qualifiedUsage": {
+      "@id": "http://www.w3.org/ns/prov#qualifiedUsage",
+      "@type": "@id"
+    },
+    "qvalue": {
+      "@id": "http://purl.obolibrary.org/obo/OBI_0001442",
+      "@type": "@id"
+    },
+    "randomFieldStationarity": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000120",
+      "@type": "@id"
+    },
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "readyforrelease": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000122",
+      "@type": "@id"
+    },
+    "records": {
+      "@container": "@type",
+      "@id": "@graph"
+    },
+    "regressorNames": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000021",
+      "@type": "xsd:string"
+    },
+    "requiresdiscussion": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000428",
+      "@type": "@id"
+    },
+    "reselSizeInVoxels": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000148",
+      "@type": "xsd:float"
+    },
+    "searchVolumeInResels": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000149",
+      "@type": "xsd:float"
+    },
+    "searchVolumeInUnits": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000136",
+      "@type": "xsd:float"
+    },
+    "searchVolumeInVoxels": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000121",
+      "@type": "xsd:int"
+    },
+    "searchVolumeReselsGeometry": {
+      "@id": "http://purl.org/nidash/spm#SPM_0000010",
+      "@type": "@id"
+    },
+    "smallestSignificantClusterSizeInVoxelsFDR05": {
+      "@id": "http://purl.org/nidash/spm#SPM_0000013",
+      "@type": "xsd:int"
+    },
+    "smallestSignificantClusterSizeInVoxelsFWE05": {
+      "@id": "http://purl.org/nidash/spm#SPM_0000014",
+      "@type": "xsd:int"
+    },
+    "softwareVersion": {
+        "@id": "http://purl.org/nidash/nidm#NIDM_0000122"
+    },
+    "specializationOf": {
+      "@id": "http://www.w3.org/ns/prov#specializationOf",
+      "@type": "@id"
+    },
+    "spm": "http://purl.org/nidash/spm#",
+    "spm_results_nidm": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000168"
+    },
+    "startedAtTime": {
+      "@id": "http://www.w3.org/ns/prov#startedAtTime",
+      "@type": "xsd:dateTime"
+    },
+    "statistic": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000039",
+      "@type": "@id"
+    },
+    "statisticType": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000123",
+      "@type": "@id"
+    },
+    "studygrouppopulation": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000193",
+      "@type": "@id"
+    },
+    "targetIntensity": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000124",
+      "@type": "xsd:float"
+    },
+    "termeditor": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000117",
+      "@type": "@id"
+    },
+    "textualdefinition": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000115",
+      "@type": "@id"
+    },
+    "tobereplacedwithexternalontologyterm": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000423",
+      "@type": "@id"
+    },
+    "tstatistic": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000176",
+      "@type": "@id"
+    },
+    "uncurated": {
+      "@id": "http://purl.obolibrary.org/obo/IAO_0000124",
+      "@type": "@id"
+    },
+    "unstructuredcovariancestructure": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000405",
+      "@type": "@id"
+    },
+    "used": {
+      "@id": "http://www.w3.org/ns/prov#used",
+      "@type": "@id"
+    },
+    "userSpecifiedThresholdType": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000125",
+      "@type": "@id"
+    },
+    "value": {
+      "@id": "http://www.w3.org/ns/prov#value",
+      "@type": "@id"
+    },
+    "varianceMapWiseDependence": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000126",
+      "@type": "@id"
+    },
+    "version": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000127",
+      "@type": "@id"
+    },
+    "voxel18connected": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000128",
+      "@type": "@id"
+    },
+    "voxel26connected": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000129",
+      "@type": "@id"
+    },
+    "voxel6connected": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000130",
+      "@type": "@id"
+    },
+    "voxelSize": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000131",
+      "@type": "xsd:string"
+    },
+    "voxelToWorldMapping": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000132",
+      "@type": "xsd:string"
+    },
+    "voxelUnits": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000133",
+      "@type": "xsd:string"
+    },
+    "wasAssociatedWith": {
+      "@id": "http://www.w3.org/ns/prov#wasAssociatedWith",
+      "@type": "@id"
+    },
+    "wasAttributedTo": {
+      "@id": "http://www.w3.org/ns/prov#wasAttributedTo",
+      "@type": "@id"
+    },
+    "wasDerivedFrom": {
+      "@id": "http://www.w3.org/ns/prov#wasDerivedFrom",
+      "@type": "@id"
+    },
+    "wasEndedBy": {
+      "@id": "http://www.w3.org/ns/prov#wasEndedBy",
+      "@type": "@id"
+    },
+    "wasGeneratedBy": {
+      "@id": "http://www.w3.org/ns/prov#wasGeneratedBy",
+      "@type": "@id"
+    },
+    "wasInfluencedBy": {
+      "@id": "http://www.w3.org/ns/prov#wasInfluencedBy",
+      "@type": "@id"
+    },
+    "wasInformedBy": {
+      "@id": "http://www.w3.org/ns/prov#wasInformedBy",
+      "@type": "@id"
+    },
+    "wasInvalidatedBy": {
+      "@id": "http://www.w3.org/ns/prov#wasInvalidatedBy",
+      "@type": "@id"
+    },
+    "wasQuotedFrom": {
+      "@id": "http://www.w3.org/ns/prov#wasQuotedFrom",
+      "@type": "@id"
+    },
+    "wasRevisionOf": {
+      "@id": "http://www.w3.org/ns/prov#wasRevisionOf",
+      "@type": "@id"
+    },
+    "wasStartedBy": {
+      "@id": "http://www.w3.org/ns/prov#wasStartedBy",
+      "@type": "@id"
+    },
+    "weightedleastsquaresestimation": {
+      "@id": "http://purl.obolibrary.org/obo/STATO_0000371",
+      "@type": "@id"
+    },
+    "withEstimationMethod": {
+      "@id": "http://purl.org/nidash/nidm#NIDM_0000134",
+      "@type": "@id"
+    },
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  }
+}
